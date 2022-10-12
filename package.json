@@ -1,0 +1,25 @@
+{
+  "name": "packmac",
+  "version": "1.0.0",
+  "description": "packmac",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "elevatezoom3": "^3.0.81",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isssss13/packmac.git"
+  },
+  "author": "mycleth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isssss13/packmac/issues"
+  },
+  "homepage": "https://github.com/isssss13/packmac#readme"
+}
