@@ -47,15 +47,25 @@
             </div>
         </footer>
         </body>
+        
         <script src="<?= base_url() ?>/js/jquery.min.js" type="text/javascript"></script>
         <script src="<?= base_url() ?>/js/bootstrap.js" type="text/javascript"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="<?= base_url() ?>/js/owl.carrusel/carrusel-home.js"></script>
+        
+
+        
         <script type="text/javascript" src="<?= base_url() ?>/js/modernizr.js"></script>
         <?= $this->renderSection('footer') ?>
         <script type="text/javascript" src="<?= base_url() ?>/js/gaia.js"></script>
+        
         <script>
             function myFunction(link) {
                 location.href = "<?= base_url() ?>/"+link;
             } 
         </script>
+        
         </html>
+        

@@ -2,64 +2,23 @@
 <?= $this->section('content') ?>
  <div class="section" style="min-height: 16.5vh;background-color:rgb(255,255,255)"></div>
 
-
-<div class="section" style="padding-top:0px">
-    <div class="owl-carousel">
-        <div class="item">
-            <div class="parallax filter filter-color-red">
-                <div class="image" style="background-image: url('/images/carrusel/reciclapak1.jpg')"></div>
-                <div class="container">
-                    <div class="content">
-                        <div class="title-area">
-                            
-                            
-                            <div class="separator line-separator">♦</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="item">
-            <div class="parallax filter filter-color-red">
-            <div class="image" style="background-image: url('/images/carrusel/reciclapak2.jpg')"></div>
-                <div class="container">
-                    <div class="content">
-                        <div class="title-area">
-                           
-                            <div class="separator line-separator">♦</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="item">
-            <div class="parallax filter filter-color-red">
-            <div class="image" style="background-image: url('/images/carrusel/reciclapak3.jpg')"></div>
-                <div class="container">
-                    <div class="content">
-                        <div class="title-area">
-                            
-                            <div class="separator line-separator">♦</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="item">
-            <div class="parallax filter filter-color-red">
-            <div class="image" style="background-image: url('/images/carrusel/reciclapak4.jpg')"></div>
-                <div class="container">
-                    <div class="content">
-                        <div class="title-area">
-                            
-                            <div class="separator line-separator">♦</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+ <div class="owl-carousel owl-theme">
+      <div class="item">
+        <h4 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOutDown">Slide 1</h4>
+        <p data-animation-in="rollIn" data-animation-out="animate-out rollOut">Cras a elementum dolor. Praesent aliquam sapien ac eros semper ullamcorper. Sed imperdiet enim at sodales suscipit. Aenean eget faucibus ipsum.</p>
+        <p><a href="#" class="btncrr" data-animation-in="fadeInLeft" data-animation-out="animate-out fadeOutRight">Button 1</a></p>
+      </div>
+      <div class="item">
+        <h4 data-animation-in="flipInY" data-animation-out="animate-out fadeOutUp">Slide 2</h4>
+        <p data-animation-in="flipInX" data-animation-out="animate-out fadeOutLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id dolor pulvinar, mollis orci vitae, molestie elit. Maecenas scelerisque ipsum nibh, id imperdiet nulla lobortis nec.</p>
+        <p><a href="#" class="btncrr" data-animation-in="fadeInLeft" data-animation-out="animate-out bounceOutRight">Button 2</a></p>
+      </div>
+      <div class="item">
+        <h4 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOutUp">Slide 3</h4>
+        <p data-animation-in="rollIn" data-animation-out="animate-out fadeOut">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id dolor pulvinar, mollis orci vitae, molestie elit. Maecenas scelerisque ipsum nibh, id imperdiet nulla lobortis nec.</p>
+        <p><a href="#" class="btncrr" data-animation-in="fadeInLeft" data-animation-out="animate-out slideOutDown">Button 3</a></p>
+      </div>
+  </div>
 
 <div class="section">
     <div class="container">
