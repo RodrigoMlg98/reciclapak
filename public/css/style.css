@@ -43,6 +43,9 @@ body {
         /* Internet Explorer fix */
     }
 }
+  .recicla{
+    text-align: center;
+  }
 
 
 h1,
@@ -344,19 +347,22 @@ body>.navbar-collapse a {
 }
 
 .info-icon {
-    text-align: center;
+    text-align: left;
 }
+
 
 .info-icon .icon {
     font-size: 62px;
     line-height: 66px;
-    color: #c5a47e;
+    color: #c57e7e;
     margin-bottom: 10px;
 }
 
 .info-icon .description {
     margin-top: 15px;
     color: #777777;
+    text-align: left;
+    
 }
 
 .avatar {
@@ -1823,7 +1829,7 @@ fieldset[disabled] .form-control {
 }
 
 .footer .btn-social {
-    color: #9A9A9A;
+    color: #0099ff;
 }
 
 .footer:not(.footer-big) nav>ul {
@@ -1846,8 +1852,8 @@ fieldset[disabled] .form-control {
 
 .footer-color-black,
 .footer-transparent {
-    background-color: rgba(30, 30, 30, 0.97);
-    color: #f89b26;
+    background-color: rgba(0, 0, 0, 0.123);
+    color: #000000;
 }
 
 .footer-color-black nav>ul a,
@@ -1876,7 +1882,7 @@ fieldset[disabled] .form-control {
 
 .footer-color-black .btn-social,
 .footer-transparent .btn-social {
-    color: #f89b26;
+    color: #2994ec;
 }
 
 .footer-color-black hr,
@@ -1886,7 +1892,7 @@ fieldset[disabled] .form-control {
 
 .footer-color-black .title,
 .footer-transparent .title {
-    color: #23a3dd;
+    color: #1f1c2c;
 }
 
 .footer-transparent {
@@ -4304,7 +4310,7 @@ body {
     background-size: 250px;
     background-position: center;
     min-height: 100px;
-    ;
+    
 }
 
 .quienes-info {
@@ -4408,8 +4414,8 @@ body {
 }
 
 .producto:hover {
-    color: #23a3dd;
-    border: 1px solid #f89b26;
+    color: #cc1000;
+    border: 1px solid #cc1000;
     /* transition: 0.8s; */
 }
 
@@ -4432,13 +4438,13 @@ body {
 }
 
 .cotizar {
-    background-color: #f89b26;
+    background-color: #cc1000;
     color: #000;
     float: right;
 }
 
 .cotizar:hover {
-    color: #f89b26;
+    color: #cc1000;
 }
 
 .variantes-nav {
@@ -4553,7 +4559,7 @@ body {
 }
 
 .table.medidas tr:hover {
-    background-color: #148ecf;
+    background-color: #cc1000;
     color: white;
 }
 
@@ -4624,20 +4630,40 @@ body {
   
   .owl-carousel .item {
     height: 80vh;
-    background-color: #fc0;
+    background-image: url('/images/carrusel/reciclapak1.png');
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    
+
     display: table-cell;
     vertical-align: middle;
     text-align: center;
   }
   
-  .btncrr {
-    display: inline-block;
-    line-height: 35px;
-    height: 35px;
+
+.sectionmarc{
+    background-image:url('/images/carrusel/reciclapak1.jpg') ;
+    background-repeat: no-repeat;
+    display: flex;
+    filter: blur(8px);
+    
+
+}
+
+.bggs-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
     text-align: center;
-    padding: 0 20px;
-    width: auto;
-    background-color: #000;
-    text-decoration: none;
-    color: #fff;
   }
+  
