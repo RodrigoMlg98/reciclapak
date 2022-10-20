@@ -41,7 +41,7 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <input class="form-control btn btn-primary" style="background-color: #cc1000;color: #000;" type="submit" value="Enviar" id="enviar">
+                        <input class="form-control btn btn-primary" style="background-color: #ff2320;color: #000;" type="submit" value="Enviar" id="enviar">
                     </div>
                 </form>
                 

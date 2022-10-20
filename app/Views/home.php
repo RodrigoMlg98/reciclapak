@@ -37,11 +37,13 @@
     </div>
   </section>
 
+
+
 <div class="section ">
     <div class="container">
         <div class="row">
             <h2 class="home-titles">Catalogo de Productos</h2>
-            <!-- <?php foreach ($categorias as $cat): ?>
+             <!-- <?php foreach ($categorias as $cat): ?>
                 <div onclick="myFunction('<?= ucfirst(strtolower(htmlentities($cat['nombre']))) ?>')" class="col-md-4" >
                         <div class="panel panel-default producto ">
                             <div class="panel-heading" style="padding:0">
@@ -59,9 +61,9 @@
             <?php endforeach ?> -->
             <?php foreach ($categorias as $cat): ?>
                 <div onclick="myFunction('<?= ucfirst(strtolower(htmlentities($cat['nombre']))) ?>')" >
-            <div class="col-xs-6 ">
+            <div class="col-xs-3 ">
             <div class="card">
-                  <a class="img-card" href="">
+                  <a class="img-card" href="<?= base_url() ?>/Productos">
                   <?php if ($cat['img']==null): ?>
                   <img class="img-thumbnail producto_imagen" src="<?= base_url() ?>/images/productos/no_photo.png" alt="" srcset="" />
                   <?php else: ?>
@@ -70,7 +72,7 @@
                 </a>
                   <div class="card-content">
                       <h4 class="card-title">
-                          <a href=""><?= ucfirst(strtolower(htmlentities($cat['nombre']))) ?>
+                          <a href="<?= base_url() ?>/Productos"><?= ucfirst(strtolower(htmlentities($cat['nombre']))) ?>
                         </a>
                       </h4>
                      

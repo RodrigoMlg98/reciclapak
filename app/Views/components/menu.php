@@ -19,9 +19,7 @@
                     <ul class="nav navbar-nav navbar-right navbar-uppercase" >
                         <li ><a href="<?= base_url() ?>/">Inicio</a></li>
                         <li><a href="<?= base_url() ?>/nosotros">Sobre nosotros</a></li>
-                        <li><a href="<?= base_url() ?>/">productos</a></li>
-                        
-                            
+                        <li><a href="<?= base_url() ?>/Productos">productos</a></li>
                         <style>
                             ul.dropdown-menu::before { content: '\A'; white-space: pre;}
                         </style>

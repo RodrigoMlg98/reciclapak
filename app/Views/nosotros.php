@@ -4,7 +4,7 @@
     <div class="section">
         <div class="container">
             <div class="row" style="text-align:center">
-                <h2 class="pb-3" style="color:#01e009;font-size:35px">Quiénes somos</h2>
+                <h2 class="pb-3" style="color:#444444;font-size:35px">Quiénes somos</h2>
                 <div class="col-sm-6 col-md-6">
                     <img width="85%" src="/images/productos/no_photo.png" alt="">
                 </div>
@@ -15,11 +15,11 @@
                    
                 </div>
                 <div class="col-sm-6 col-md-6 vision">
-                    <h2 style="color:#01e009;font-size:35px">MISIÓN</h2>
+                    <h2 style="color:#444444;font-size:35px">MISIÓN</h2>
                     <p class="quienes mision pb-4">
                     Ser la solución de nuestros clientes brindar atención, servicio y calidad en nuestros productos.
                     </p>
-                    <h2 style="color:#01e009;font-size:35px;">VISIÓN</h2>
+                    <h2 style="color:#444444;font-size:35px;">VISIÓN</h2>
                     <p class="quienes pb-4">
                     Ser un fabricante competitivo que este a la altura de la calidad que los clientes requieren, así como la demanda del mercado.
                     </p>
@@ -28,7 +28,7 @@
                     <img width="80%" src="/images/productos/no_photo.png" alt="">
                 </div>
                 <div class="col-sm-12 col-md-12 vision">
-                    <h2 style="color:#01e009;font-size:35px">Nosotros</h2>
+                    <h2 style="color:#444444;font-size:35px">Nosotros</h2>
                     <p class="quienes">
                     Empresa creada con la finalidad de suministrar 
                     material de empaque y embalaje, que cuenta con un equipo especializado
