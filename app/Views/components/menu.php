@@ -19,14 +19,9 @@
                     <ul class="nav navbar-nav navbar-right navbar-uppercase" >
                         <li ><a href="<?= base_url() ?>/">Inicio</a></li>
                         <li><a href="<?= base_url() ?>/nosotros">Sobre nosotros</a></li>
-                        <li style="cursor:pointer" class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown">Catalogo de productos</a>
-                            <ul class="dropdown-menu dropdown-danger">
-                                <?php foreach ($categorias as $cat): ?>
-                                    <li><a href="<?= base_url() ?>/<?= $cat['nombre'] ?>"><?= $cat['nombre'] ?></a></li>
-                                <?php endforeach ?>
-                            </ul>
-                        </li>
+                        <li><a href="<?= base_url() ?>/">productos</a></li>
+                        
+                            
                         <style>
                             ul.dropdown-menu::before { content: '\A'; white-space: pre;}
                         </style>

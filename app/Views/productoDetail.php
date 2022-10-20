@@ -9,12 +9,12 @@
                         <div class="col-md-3">
                             <div class="variantes-nav">
                                 <?php if($producto['img']==NULL): ?>
-                                    <img class="img-thumbnail" src="<?= base_url() ?>/images/productos/no_photo.png" alt="Packmac - <?= $producto['nombre'] ?>">
+                                    <img class="img-thumbnail" src="<?= base_url() ?>/images/productos/no_photo.png" alt="Reciclapak - <?= $producto['nombre'] ?>">
                                 <?php else: ?>
-                                    <img class="img-thumbnail" src="<?= base_url() ?>/images/productos/<?= $producto['img'] ?>" alt="Packmac - <?= $producto['nombre'] ?>">
+                                    <img class="img-thumbnail" src="<?= base_url() ?>/images/productos/<?= $producto['img'] ?>" alt="Reciclapak - <?= $producto['nombre'] ?>">
                                 <?php endif ?>
                                 <?php foreach($variantes as $var): ?>
-                                    <img class="img-thumbnail" src="<?= base_url() ?>/images/productos/<?= $var['img'] ?>" alt="Packmac - <?= $producto['nombre'] ?>">
+                                    <img class="img-thumbnail" src="<?= base_url() ?>/images/productos/<?= $var['img'] ?>" alt="Reciclapak - <?= $producto['nombre'] ?>">
                                 <?php endforeach ?>
                             </div>
                         </div>
@@ -22,14 +22,14 @@
                             <div class="variantes imagen-producto">
                                 <div>
                                     <?php if($producto['img']==NULL): ?>
-                                        <img class="img-thumbnail" src="<?= base_url() ?>/images/productos/no_photo.png" alt="Packmac - <?= $producto['nombre'] ?>">
+                                        <img class="img-thumbnail" src="<?= base_url() ?>/images/productos/no_photo.png" alt="Reciclapak - <?= $producto['nombre'] ?>">
                                     <?php else: ?>
-                                        <img class="img-thumbnail zoom" id="zoom" src="<?= base_url() ?>/images/productos/<?= $producto['img'] ?>" alt="Packmac - <?= $producto['nombre'] ?>"  id="zoom_01" data-zoom-image="<?= base_url() ?>/images/productos/<?= $producto['img'] ?>">
+                                        <img class="img-thumbnail zoom" id="zoom" src="<?= base_url() ?>/images/productos/<?= $producto['img'] ?>" alt="Reciclapak - <?= $producto['nombre'] ?>"  id="zoom_01" data-zoom-image="<?= base_url() ?>/images/productos/<?= $producto['img'] ?>">
                                     <?php endif ?>
                                 </div>
                                 <?php foreach($variantes as $var): ?>
                                     <div>
-                                        <img class="img-thumbnail zoom" src="<?= base_url() ?>/images/productos/<?= $var['img'] ?>" alt="Packmac - <?= $producto['nombre'] ?>" data-zoom-image="<?= base_url() ?>/images/productos/<?= $var['img'] ?>">
+                                        <img class="img-thumbnail zoom" src="<?= base_url() ?>/images/productos/<?= $var['img'] ?>" alt="Reciclapak - <?= $producto['nombre'] ?>" data-zoom-image="<?= base_url() ?>/images/productos/<?= $var['img'] ?>">
                                     </div>
                                 <?php endforeach ?>
                             </div>

@@ -41,7 +41,7 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <input class="form-control btn btn-primary" style="background-color: #23a3dd;color: #000;" type="submit" value="Enviar" id="enviar">
+                        <input class="form-control btn btn-primary" style="background-color: #cc1000;color: #000;" type="submit" value="Enviar" id="enviar">
                     </div>
                 </form>
                 
@@ -52,18 +52,18 @@
                         <h2>Contactenos</h2>
                     </div>
                     <div class="col-md-12">
-                        <p class="lead"><i class="fab fa-whatsapp"></i> <a id="linkM" class="font-weight-bold" href="https://api.whatsapp.com/send?phone=52+5568768195&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20algun%20producto."> (+52) 55-6876-8195</a></p>
+                        <p class="lead"><i class="fab fa-whatsapp"></i> <a id="linkM" class="font-weight-bold" href="https://api.whatsapp.com/send?phone=52+5589135273&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20algun%20producto."> (+52) 55-8913-5273</a></p>
                     </div>
                     <div class="col-md-12">
-                        <p class="lead"><i class="fas fa-phone"></i>(+52) 55-8944-4126</p>
+                        <p class="lead"><i class="fas fa-phone"></i>(+52) 55-8913-5272</p>
                     </div>
                     <div class="col-md-12">
-                        <p class="lead"><i class="fas fa-at"></i> <a id="linkM" class="font-weight-bold" href="mailto:ventascdmx@packmac.com.mx"> ventascdmx@packmac.com.mx </a></p>
+                        <p class="lead"><i class="fas fa-at"></i> <a id="linkM" class="font-weight-bold" href="mailto:reciclapak@gmail.com"> reciclapak@gmail.com </a></p>
                     </div>
                     <div class="col-md-12">
                         <p class="lead">
                             <i class="fas fa-map-marker-alt"></i>
-                            Albarrada No.89 Col. Leyes de Reforma 1ª Sección C.P. 09310 Del. Iztapalapa
+                            09310 Leyes de Reforma Tercera Sección, Distrito Federal, Mexico
                     </div>
 
                 </div>

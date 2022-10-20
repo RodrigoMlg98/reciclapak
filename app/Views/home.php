@@ -4,34 +4,51 @@
 
  <div class="owl-carousel owl-theme">
       <div class="item">
-        <h4 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOutDown">Slide 1</h4>
-        <p data-animation-in="rollIn" data-animation-out="animate-out rollOut">Cras a elementum dolor. Praesent aliquam sapien ac eros semper ullamcorper. Sed imperdiet enim at sodales suscipit. Aenean eget faucibus ipsum.</p>
-        <p><a href="#" class="btncrr" data-animation-in="fadeInLeft" data-animation-out="animate-out fadeOutRight">Button 1</a></p>
+      
+        <h4 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOutDown">Cintas especializadas</h4>
+        <p data-animation-in="rollIn" data-animation-out="animate-out rollOut">Tus productos estaran seguros</p>
+        
       </div>
       <div class="item">
-        <h4 data-animation-in="flipInY" data-animation-out="animate-out fadeOutUp">Slide 2</h4>
-        <p data-animation-in="flipInX" data-animation-out="animate-out fadeOutLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id dolor pulvinar, mollis orci vitae, molestie elit. Maecenas scelerisque ipsum nibh, id imperdiet nulla lobortis nec.</p>
-        <p><a href="#" class="btncrr" data-animation-in="fadeInLeft" data-animation-out="animate-out bounceOutRight">Button 2</a></p>
+        <h4 data-animation-in="flipInY" data-animation-out="animate-out fadeOutUp">Plastico de burbujas</h4>
+        <p data-animation-in="flipInX" data-animation-out="animate-out fadeOutLeft">Para embalaje, empaque y mudanzas</p>
+        
       </div>
       <div class="item">
-        <h4 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOutUp">Slide 3</h4>
-        <p data-animation-in="rollIn" data-animation-out="animate-out fadeOut">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id dolor pulvinar, mollis orci vitae, molestie elit. Maecenas scelerisque ipsum nibh, id imperdiet nulla lobortis nec.</p>
-        <p><a href="#" class="btncrr" data-animation-in="fadeInLeft" data-animation-out="animate-out slideOutDown">Button 3</a></p>
+        <h4 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOutUp">Pelicula estirable</h4>
+        <p data-animation-in="rollIn" data-animation-out="animate-out fadeOut">Recubrimiento y proteccion de productos envasados, con la mejor calidad y precio</p>
+       
       </div>
   </div>
+ <!--  <difv class="section ">
+    <div class="container"> 
+        <h1 class="recicla">Reciclapak</h1>
+        <h3><b>Reciclapak, fabricante de poliburbuja y distribuidor, con más de 15 años de experiencia en la industria del empaque.</b></h3>
 
-<div class="section">
+</div>
+</difv> -->
+<section class="showcase">
+    <img src="/images/carrusel/marca.jpg" alt="Picture">
+    <div class="overlay">
+      <h2>Reciclapak</h2>
+      <p>
+      Reciclapak, fabricante de poliburbuja y distribuidor, con más de 15 años de experiencia en la industria del empaque.
+      </p>
+    </div>
+  </section>
+
+<div class="section ">
     <div class="container">
         <div class="row">
-            <h2 class="home-titles">Nuestro catalogo</h2>
-            <?php foreach ($categorias as $cat): ?>
+            <h2 class="home-titles">Catalogo de Productos</h2>
+            <!-- <?php foreach ($categorias as $cat): ?>
                 <div onclick="myFunction('<?= ucfirst(strtolower(htmlentities($cat['nombre']))) ?>')" class="col-md-4" >
                         <div class="panel panel-default producto ">
                             <div class="panel-heading" style="padding:0">
                                 <?php if ($cat['img']==null): ?>
                                     <img class="img-thumbnail producto_imagen" src="<?= base_url() ?>/images/productos/no_photo.png" alt="" srcset="">
                                 <?php else: ?>
-                                    <img class="img-thumbnail producto_imagen" src="<?= base_url() ?>/images/productos/<?= $cat['img'] ?>" alt="Packmac - <?= ucfirst(strtolower(htmlentities($cat['nombre']))) ?>" srcset="">
+                                    <img class="img-thumbnail producto_imagen" src="<?= base_url() ?>/images/productos/<?= $cat['img'] ?>" alt="Reciclapak - <?= ucfirst(strtolower(htmlentities($cat['nombre']))) ?>" srcset="">
                                 <?php endif ?>
                             </div>
                             <div class="panel-body">
@@ -39,51 +56,85 @@
                             </div>
                         </div>
                 </div>
-            <?php endforeach ?>
+            <?php endforeach ?> -->
+            <?php foreach ($categorias as $cat): ?>
+                <div onclick="myFunction('<?= ucfirst(strtolower(htmlentities($cat['nombre']))) ?>')" >
+            <div class="col-xs-6 ">
+            <div class="card">
+                  <a class="img-card" href="">
+                  <?php if ($cat['img']==null): ?>
+                  <img class="img-thumbnail producto_imagen" src="<?= base_url() ?>/images/productos/no_photo.png" alt="" srcset="" />
+                  <?php else: ?>
+                    <img class="img-thumbnail producto_imagen" src="<?= base_url() ?>/images/productos/<?= $cat['img'] ?>" alt="Reciclapak - <?= ucfirst(strtolower(htmlentities($cat['nombre']))) ?>" srcset="">
+                                <?php endif ?>
+                </a>
+                  <div class="card-content">
+                      <h4 class="card-title">
+                          <a href=""><?= ucfirst(strtolower(htmlentities($cat['nombre']))) ?>
+                        </a>
+                      </h4>
+                     
+                      <div class="clearfix"></div>
+                  </div>
+                 
+              </div>
+
         </div>
     </div>
+    <?php endforeach ?>
 </div>
+                                </div>
 
 <div class="section">
     <div class="container">
         <div class="row">
-            <h2 class="home-titles">¿Por qué somos tu mejor opción?</h2>
-            <div class="col-md-3">
-                <div class="info-icon">
+            <h2 class="recicla">POR QUÉ ELEGIRNOS</h2>
+            <br>
+            <br>
+           <div class="row">
+            <div>
+        
+            <div class="col-md-5">
+                <div class="info-icon" >
                     <div class="icon text-danger">
-                        <i class="fas fa-lightbulb"></i>
+                        <i class="fa fa-money" style="color: #cc1000;"></i>
                     </div>
-                    <h3 style="color: #f89b26;">Soluciones integrales</h3>
-                    <p class="description">
-                        Contamos con ejecutivos de venta que te brindarán atención personalizada  al instante y 
-                        te guiarán en todo momento para la correcta selección de los productos para tus empaques y embalajes.
-                    </p>
+                    <h3 style="color: #333333;"><b>Pecios competitivos </b></h3>
+                    <ul class="description" style="list-style:none;padding-left: 0px;">
+                        <li>Nuestros precios se ajustan a tu presupuesto</li>
+                                </ul>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-5">
                 <div class="info-icon">
                     <div class="icon text-danger">
-                        <i class="fas fa-shipping-fast"></i>
+                        <i class="	fas fa-box-open" style="color: #cc1000;"></i>
                     </div>
-                    <h3 style="color: #f89b26;">Entregas</h3>
-                    <p class="description">Las entregas son totalmente gratuitas dentro de la Ciudad de México y área metropolitana</p>
+                    <h3 style="color: #333333;"><b>Variedad de Productos</b></h3>
+                    
+                    <ul class="description" style="list-style:none;padding-left: 0px;">
+                        <li>Contamos con lo que necesitas</li>
+                                </ul>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-5">
                 <div class="info-icon">
                     <div class="icon text-danger">
-                        <i class="far fa-calendar-alt"></i>
+                        <i class="fas fa-shipping-fast" style="color: #cc1000;"></i>
                     </div>
-                    <h3 style="color: #f89b26;">Horario de atención</h3>
-                    <p class="description">Lunes – Viernes (8 am – 6 pm) / Sábados (8 am – 2 pm)</p>
+                    <h3 style="color: #333333;"><b>Envío Rapido y Seguro</b></h3>
+                   
+                    <ul class="description" style="list-style:none;padding-left: 0px;">
+                        <li>Envios gratis a todo CDMX</li>
+                                </ul>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-5">
                 <div class="info-icon">
                     <div class="icon text-danger">
-                        <i class="fas fa-money-bill-wave-alt"></i>
+                        <i class="fas fa-money-bill-wave-alt" style="color: #cc1000;"></i>
                     </div>
-                    <h3 style="color: #f89b26;">Formas de pago</h3>
+                    <h3 style="color: #333333;"><b>Diversas Formas de Pago</b></h3>
                     <ul class="description" style="list-style:none;padding-left: 0px;">
                         <li>Transferencia</li>
                         <li>Depósito Bancario</li>
@@ -91,95 +142,15 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-12">
-                <div class="info-icon">
-                    <div class="icon text-danger">
-                        <img src="<?= base_url() ?>/images/recicle.png" alt="">
-                    </div>
-                    <p class="description">Al consumir nuestros productos 100% reciclados, biodegradables o compostables ayudas al medio ambiente</p>
-                    
-                </div>
-            </div>
+            </div> 
+        
         </div>
     </div>
 </div>
 
 <?= $this->endSection() ?>
-<div class="section" style="min-height: 120px;"></div>
-<div class="section section-header">
-    <div class="owl-carousel">
-        <div class="item">
-            <div class="parallax filter filter-color-red">
-                <div class="image" style="background-image: url('/images/carrusel/packmac1.jpeg')"></div>
-                <div class="container">
-                    <div class="content">
-                        <div class="title-area">
-                            <h1 class="title-modern">Bienvenido a Pack Mac</h1>
-                            
-                            <div class="separator line-separator">♦</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="item">
-            <div class="parallax filter filter-color-red">
-            <div class="image" style="background-image: url('/images/carrusel/packmac2.jpeg')"></div>
-                <div class="container">
-                    <div class="content">
-                        <div class="title-area">
-                            <h1 class="title-modern">Bienvenido a Pack Mac</h1>
-                            <div class="separator line-separator">♦</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="item">
-            <div class="parallax filter filter-color-red">
-            <div class="image" style="background-image: url('/images/carrusel/packmac3.png')"></div>
-                <div class="container">
-                    <div class="content">
-                        <div class="title-area">
-                            <h1 class="title-modern">Bienvenido a Pack Mac</h1>
-                            <div class="separator line-separator">♦</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="item">
-            <div class="parallax filter filter-color-red">
-            <div class="image" style="background-image: url('/images/carrusel/packmac4.png')"></div>
-                <div class="container">
-                    <div class="content">
-                        <div class="title-area">
-                            <h1 class="title-modern">Bienvenido a Pack Mac</h1>
-                            <div class="separator line-separator">♦</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="section">
-    
-        <div class="row">
-            <div class="col-12">
-                <div class="image" style="background-image: url('/images/carrusel/packmac1.jpeg')"></div>
-                <!-- <div class="container">
-                    <div class="content">
-                        <div class="title-area">
-                            <h1 class="title-modern">Bienvenido a Pack Mac</h1>
-                            
-                            <div class="separator line-separator">♦</div>
-                        </div>
-                    </div>
-                </div> -->
-            </div>
-        </div>
-    
+
+
 </div>
 
 

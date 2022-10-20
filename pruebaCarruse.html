@@ -1,150 +1,207 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-<!--     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.min.css">
- -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <title>Document</title>
-    <style>
-
-        .animated {
-            -webkit-animation-duration: 3s;
-            animation-duration: 3s;
-
-            -webkit-animation-delay: 500ms;
-            animation-delay: 500ms;
-        }
-
-        .animate-out {
-            -webkit-animation-delay: 0ms;
-            animation-delay: 0ms;
-        }
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
 
 
-        .owl-item {
-            display: table;
-        }
 
-        .owl-carousel .item {
-            height: 80vh;
-            background-color: #fc0;
-            display: table-cell;
-            vertical-align: middle;
-            text-align: center;
-        }
+.wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
 
-    </style>
+.container-fostrap {
+  display: table-cell;
+  padding: 1em;
+  text-align: center;
+  vertical-align: middle;
+}
+.fostrap-logo {
+  width: 100px;
+  margin-bottom:15px
+}
+h1.heading {
+  color: #fff;
+  font-size: 1.15em;
+  font-weight: 900;
+  margin: 0 0 0.1em;
+  color: #505050;
+}
+@media (min-width: 450px) {
+  h1.heading {
+    font-size: 3.55em;
+  }
+}
+@media (min-width: 760px) {
+  h1.heading {
+    font-size: 3.05em;
+  }
+}
+@media (min-width: 900px) {
+  h1.heading {
+    font-size: 3.25em;
+    margin: 0 0 0.1em;
+  }
+} 
+h2.heading-two {
+      margin: 0 0 0.5em;
+    font-weight: 200;
+    font-style: italic;
+    display: inline-block;
+    background: #505050;
+    padding: 5px 20px;
+    color: #FFF;
+    font-size: 1.8em;
+    border-radius: 2px;
+}
+.card:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  top: 0;
+  background: #2098d1;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  z-index: 5
+}
+.card { 
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
+    transition: box-shadow .25s; 
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0); 
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.card:hover:before, .card:focus:before, .card:active:before {
+  right: 0;
+}
+.card:hover {
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.img-card {
+  width: 100%;
+  height:200px;
+  border-top-left-radius:2px;
+  border-top-right-radius:2px;
+  display:block;
+    overflow: hidden;
+}
+.img-card img{
+  width: 100%;
+  height: 200px;
+  object-fit:cover; 
+  transition: all .25s ease;
+} 
+.card-content {
+  padding:15px;
+  text-align:left;
+}
+.card-title {
+  margin-top:0px;
+  font-weight: 700;
+  font-size: 1.25em;
+}
+.card-title a {
+  color: #000;
+  text-decoration: none !important;
+}
+
+
+/* Underline From Right */
+.card-read-more {
+  display: block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.card-read-more:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 100%;
+  right: 0;
+  bottom: 0;
+  background: #2098d1;
+  height: 4px;
+  -webkit-transition-property: left;
+  transition-property: left;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.card:hover .card-read-more:before,.card:focus .card-read-more:before,.card:active .card-read-more:before {
+  left: 0;
+}
+
+.card-read-more {
+  border-top: 1px solid #D4D4D4;
+}
+.card-read-more a {
+  text-decoration: none !important;
+  padding:10px;
+  font-weight:600;
+  text-transform: uppercase
+}
+footer {
+  text-align: center;
+  margin: 15px;
+}
+footer h3{
+  font-size: 2.92rem;
+  font-weight:100;
+    margin: 1.46rem 0 1.168rem;
+}
+
+</style>
 </head>
-
 <body>
-    <div class="owl-carousel owl-theme">
-        <div class="item">
-            <h4 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOutDown">Slide 1</h4>
-            <p data-animation-in="rollIn" data-animation-out="animate-out rollOut">Cras a elementum dolor. Praesent
-                aliquam sapien ac eros semper ullamcorper. Sed imperdiet enim at sodales suscipit. Aenean eget faucibus
-                ipsum.</p>
-            <p><a href="#" class="btn" data-animation-in="fadeInLeft"
-                    data-animation-out="animate-out fadeOutRight">Button 1</a></p>
-        </div>
-        <div class="item">
-            <h4 data-animation-in="flipInY" data-animation-out="animate-out fadeOutUp">Slide 2</h4>
-            <p data-animation-in="flipInX" data-animation-out="animate-out fadeOutLeft">Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Nunc id dolor pulvinar, mollis orci vitae, molestie elit. Maecenas
-                scelerisque ipsum nibh, id imperdiet nulla lobortis nec.</p>
-            <p><a href="#" class="btn" data-animation-in="bounceInLeft"
-                    data-animation-out="animate-out bounceOutRight">Button 2</a></p>
-        </div>
-        <div class="item">
-            <h4 data-animation-in="slideInDown" data-animation-out="animate-out slideOutUp">Slide 3</h4>
-            <p data-animation-in="slideInRight" data-animation-out="animate-out fadeOut">Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Nunc id dolor pulvinar, mollis orci vitae, molestie elit. Maecenas
-                scelerisque ipsum nibh, id imperdiet nulla lobortis nec.</p>
-            <p><a href="#" class="btn" data-animation-in="slideInUp"
-                    data-animation-out="animate-out slideOutDown">Button 3</a></p>
-        </div>
-    </div>
+<!--   ---------------------------------------------------------------------------------------------------------------------------------------- -->
+<div class="content">
+  <div class="container">
+      <div class="row">
+          <div class="col-xs-12 col-sm-4 col-md-3">
+              <div class="card">
+                  <a class="img-card" href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html">
+                  <img src="https://krazycrave.com/wp-content/uploads/2016/01/EACH-G2000-Over-ear-Game-Gaming-Headset-Earphone-Headband-Headphone-with-Mic-Stereo-Bass-LED-Light-5-500x500.jpg" />
+                </a>
+                  <div class="card-content">
+                      <h4 class="card-title">
+                          <a href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html"> EACH G2000 Over ear Game Gaming Headset
+                        </a>
+                      </h4>
+                     
+                      <div class="clearfix"></div>
+                  </div>
+                 
+              </div>
+          </div> 
+
+
+
 </body>
-
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.min.js"></script> -->
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
-<script>
-    $(document).ready(function () {
-        // Declare Carousel jquery object
-        var owl = $('.owl-carousel');
-
-        // Carousel initialization
-        owl.owlCarousel({
-            loop: true,
-            margin: 0,
-            navSpeed:500 ,
-            nav: true,
-            autoplay: true,
-            rewind: true,
-            items: 1
-        });
-
-        // add animate.css class(es) to the elements to be animated
-        function setAnimation(_elem, _InOut) {
-            // Store all animationend event name in a string.
-            // cf animate.css documentation
-            var animationEndEvent = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
-
-            _elem.each(function () {
-                var $elem = $(this);
-                var $animationType = 'animated ' + $elem.data('animation-' + _InOut);
-
-                $elem.addClass($animationType).one(animationEndEvent, function () {
-                    $elem.removeClass($animationType); // remove animate.css Class at the end of the animations
-                });
-            });
-        }
-
-        // Fired before current slide change
-        owl.on('change.owl.carousel', function (event) {
-            var $currentItem = $('.owl-item', owl).eq(event.item.index);
-            var $elemsToanim = $currentItem.find("[data-animation-out]");
-            setAnimation($elemsToanim, 'out');
-        });
-
-        // Fired after current slide has been changed
-        var round = 0;
-        owl.on('changed.owl.carousel', function (event) {
-
-            var $currentItem = $('.owl-item', owl).eq(event.item.index);
-            var $elemsToanim = $currentItem.find("[data-animation-in]");
-
-            setAnimation($elemsToanim, 'in');
-        })
-
-        owl.on('translated.owl.carousel', function (event) {
-            console.log(event.item.index, event.page.count);
-
-            if (event.item.index == (event.page.count - 1)) {
-                if (round < 1) {
-                    round++
-                    console.log(round);
-                } else {
-                    owl.trigger('stop.owl.autoplay');
-                    var owlData = owl.data('owl.carousel');
-                    owlData.settings.autoplay = false; //don't know if both are necessary
-                    owlData.options.autoplay = false;
-                    owl.trigger('refresh.owl.carousel');
-                }
-            }
-        });
-
-    });
-</script>
-
 </html>
