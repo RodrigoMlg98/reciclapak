@@ -1,6 +1,16 @@
 <?= $this->extend('template/plantilla') ?>
 <?= $this->section('content') ?>
 <div class="section section-header" style="min-height: 120px;"></div>
+<div class="section"> 
+
+    <img src="/images/carrusel/reciclapak1.png" alt="" style=" filter: blur(2px) grayscale(100%); width: 100%;
+    height: 250px; "> 
+    <h1 style="display: inline-block; position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(200%, -50%); color:#ffffff">Contactanos</h1>
+    
+</div>
 <div class="section">
     <div class="container">
         <div class="row">
@@ -52,10 +62,20 @@
                         <h2>Contactenos</h2>
                     </div>
                     <div class="col-md-12">
-                        <p class="lead"><i class="fab fa-whatsapp"></i> <a id="linkM" class="font-weight-bold" href="https://api.whatsapp.com/send?phone=52+5589135273&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20algun%20producto."> (+52) 55-8913-5273</a></p>
+                        <p class="lead"><i class="fab fa-whatsapp"></i> <a id="linkM" class="font-weight-bold" href="https://api.whatsapp.com/send?phone=52+5569325261&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20algun%20producto."> (+52) 55-6932-5261 <b>/</a>
+                        <a id="linkM" class="font-weight-bold" href="https://api.whatsapp.com/send?phone=52+5585762980&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20algun%20producto.">   55-8576-2980</a> </p>
                     </div>
+                    <!-- <div class="col-md-12">
+                        <p class="lead"><i class="fab fa-whatsapp"></i> <a id="linkM" class="font-weight-bold" href="https://api.whatsapp.com/send?phone=52+5585762980&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20algun%20producto."> (+52)  55-8576-2980</a></p>
+                    </div> -->
                     <div class="col-md-12">
                         <p class="lead"><i class="fas fa-phone"></i>(+52) 55-8913-5272</p>
+                    </div>
+                    <div class="col-md-12">
+                        <p class="lead"><i class="fas fa-phone"></i>(+52) 55-8913-5273</p>
+                    </div>
+                    <div class="col-md-12">
+                        <p class="lead"><i class="fas fa-phone"></i>(+52) 55-1713-7737</p>
                     </div>
                     <div class="col-md-12">
                         <p class="lead"><i class="fas fa-at"></i> <a id="linkM" class="font-weight-bold" href="mailto:reciclapak@gmail.com"> reciclapak@gmail.com </a></p>
@@ -63,7 +83,13 @@
                     <div class="col-md-12">
                         <p class="lead">
                             <i class="fas fa-map-marker-alt"></i>
-                            09310 Leyes de Reforma Tercera Sección, Distrito Federal, Mexico
+                            Batalla de Tunas Blancas Mza 71 Lte 721 Col. Leyes de Reforma 3ra sección,
+
+Iztapalapa CP 09310, CDMX
+
+ 
+
+Entre Av. Javier Rojo Gómez y 26 de Enero 1857
                     </div>
 
                 </div>

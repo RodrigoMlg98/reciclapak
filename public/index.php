@@ -29,7 +29,7 @@ $pathsPath = realpath(FCPATH . '../app/Config/Paths.php');
 chdir(__DIR__);
 
 // Load our paths config file
-require $pathsPath;
+require $pathsPath  = realpath(FCPATH . '../app/Config/Paths.php');
 $paths = new Config\Paths();
 
 // Location of the framework bootstrap file.

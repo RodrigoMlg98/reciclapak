@@ -2,7 +2,7 @@
 <?= $this->section('content') ?>
  <div class="section" style="min-height: 16.5vh;background-color:rgb(255,255,255)"></div>
 
- <div class="owl-carousel owl-theme">
+<!--  <div class="owl-carousel owl-theme">
       <div class="item">
       
         <h4 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOutDown">Cintas especializadas</h4>
@@ -19,7 +19,7 @@
         <p data-animation-in="rollIn" data-animation-out="animate-out fadeOut">Recubrimiento y proteccion de productos envasados, con la mejor calidad y precio</p>
        
       </div>
-  </div>
+  </div> -->
  <!--  <difv class="section ">
     <div class="container"> 
         <h1 class="recicla">Reciclapak</h1>
@@ -27,7 +27,71 @@
 
 </div>
 </difv> -->
-<section class="showcase">
+<div class="owl-carousel owl-theme">
+  <div class="owl-slide d-flex align-items-center cover" style="background-image: url(/images/carrusel/reciclapak1.png) ">
+    <div class="container">
+      <div class="row justify-content-center justify-content-md-start">
+        <div class="col-10 col-md-6 static">
+          <div class="owl-slide-text">
+            <h1 class="owl-slide-animated owl-slide-title"><br>
+            <br>
+            <br> <br>
+            <br>
+            <br> <br>Cintas especializadas</h1>
+            <div class="owl-slide-animated owl-slide-subtitle mb-3">
+           <p><h2>Tus productos estaran seguros</h2></p>  
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!--/owl-slide-->
+
+  <div class="owl-slide d-flex align-items-center cover" style="background-image: url(/images/carrusel/marca.jpg);">
+    <div class="container">
+      <div class="row justify-content-center justify-content-md-start">
+        <div class="col-10 col-md-6 static">
+          <div class="owl-slide-text">
+            <h1 class="owl-slide-animated owl-slide-title"> <br>
+            <br>
+            <br> <br>
+            <br>
+            <br> <br>Plastico de burbujas.</h1>
+            <div class="owl-slide-animated owl-slide-subtitle mb-3">
+           <p> <h2>Para embalaje, empaque y mudanzas</h2></p> 
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!--/owl-slide-->
+
+  <div class="owl-slide d-flex align-items-center cover" style="background-image: url(/images/carrusel/reciclapak1.png);">
+    <div class="container">
+      <div class="row justify-content-center justify-content-md-start">
+        <div class="col-10 col-md-6 static">
+          <div class="owl-slide-text">
+            <h1 class="owl-slide-animated owl-slide-title"> <br>
+            <br>
+            <br> <br>
+            <br>
+            <br> <br>Pelicula estirable</h1>
+            <div class="owl-slide-animated owl-slide-subtitle mb-3">
+                <p> <h2>Recubrimiento y proteccion de productos envasados, con la mejor calidad y precio</h2> </p>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!--/owl-slide-->
+</div>
+<br>
+<br>
+<div class="section" style="padding-top: 2em">
+<section class="showcase" >
     <img src="/images/carrusel/marca.jpg" alt="Picture">
     <div class="overlay">
       <h2>Reciclapak</h2>
@@ -36,10 +100,11 @@
       </p>
     </div>
   </section>
+  </div>
 
 
 
-<div class="section ">
+<div class="section " >
     <div class="container">
         <div class="row">
             <h2 class="home-titles">Catalogo de Productos</h2>
@@ -86,6 +151,7 @@
     <?php endforeach ?>
 </div>
                                 </div>
+                  </div>
 
 <div class="section">
     <div class="container">
@@ -149,11 +215,12 @@
         </div>
     </div>
 </div>
+</div>
 
 <?= $this->endSection() ?>
 
 
-</div>
+
 
 
 
