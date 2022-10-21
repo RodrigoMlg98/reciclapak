@@ -1,106 +1,116 @@
 <?= $this->extend('template/plantilla') ?>
 <?= $this->section('content') ?>
- <div class="section" style="min-height: 16.5vh;background-color:rgb(255,255,255)"></div>
-
-<!--  <div class="owl-carousel owl-theme">
-      <div class="item">
-      
-        <h4 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOutDown">Cintas especializadas</h4>
-        <p data-animation-in="rollIn" data-animation-out="animate-out rollOut">Tus productos estaran seguros</p>
-        
-      </div>
-      <div class="item">
-        <h4 data-animation-in="flipInY" data-animation-out="animate-out fadeOutUp">Plastico de burbujas</h4>
-        <p data-animation-in="flipInX" data-animation-out="animate-out fadeOutLeft">Para embalaje, empaque y mudanzas</p>
-        
-      </div>
-      <div class="item">
-        <h4 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOutUp">Pelicula estirable</h4>
-        <p data-animation-in="rollIn" data-animation-out="animate-out fadeOut">Recubrimiento y proteccion de productos envasados, con la mejor calidad y precio</p>
-       
-      </div>
-  </div> -->
- <!--  <difv class="section ">
-    <div class="container"> 
-        <h1 class="recicla">Reciclapak</h1>
-        <h3><b>Reciclapak, fabricante de poliburbuja y distribuidor, con más de 15 años de experiencia en la industria del empaque.</b></h3>
-
-</div>
-</difv> -->
-<div class="owl-carousel owl-theme">
-  <div class="owl-slide d-flex align-items-center cover" style="background-image: url(/images/carrusel/reciclapak1.png) ">
-    <div class="container">
-      <div class="row justify-content-center justify-content-md-start">
-        <div class="col-10 col-md-6 static">
-          <div class="owl-slide-text">
-            <h1 class="owl-slide-animated owl-slide-title"><br>
-            <br>
-            <br> <br>
-            <br>
-            <br> <br>Cintas especializadas</h1>
-            <div class="owl-slide-animated owl-slide-subtitle mb-3">
-           <p><h2>Tus productos estaran seguros</h2></p>  
-            </div>
-           
-          </div>
+<div class="section" style="min-height: 16.5vh;background-color:rgb(255,255,255)"></div>
+        <!--  <div class="owl-carousel owl-theme">
+              <div class="item">
+              
+                <h4 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOutDown">Cintas especializadas</h4>
+                <p data-animation-in="rollIn" data-animation-out="animate-out rollOut">Tus productos estaran seguros</p>
+                
+              </div>
+              <div class="item">
+                <h4 data-animation-in="flipInY" data-animation-out="animate-out fadeOutUp">Plastico de burbujas</h4>
+                <p data-animation-in="flipInX" data-animation-out="animate-out fadeOutLeft">Para embalaje, empaque y mudanzas</p>
+                
+              </div>
+              <div class="item">
+                <h4 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOutUp">Pelicula estirable</h4>
+                <p data-animation-in="rollIn" data-animation-out="animate-out fadeOut">Recubrimiento y proteccion de productos envasados, con la mejor calidad y precio</p>
+              
+              </div>
+          </div> -->
+        <!--  <difv class="section ">
+            <div class="container"> 
+                <h1 class="recicla">Reciclapak</h1>
+                <h3><b>Reciclapak, fabricante de poliburbuja y distribuidor, con más de 15 años de experiencia en la industria del empaque.</b></h3>
         </div>
-      </div>
-    </div>
-  </div><!--/owl-slide-->
-
-  <div class="owl-slide d-flex align-items-center cover" style="background-image: url(/images/carrusel/marca.jpg);">
-    <div class="container">
-      <div class="row justify-content-center justify-content-md-start">
-        <div class="col-10 col-md-6 static">
-          <div class="owl-slide-text">
-            <h1 class="owl-slide-animated owl-slide-title"> <br>
-            <br>
-            <br> <br>
-            <br>
-            <br> <br>Plastico de burbujas.</h1>
-            <div class="owl-slide-animated owl-slide-subtitle mb-3">
-           <p> <h2>Para embalaje, empaque y mudanzas</h2></p> 
+        </difv> -->
+        <div class="owl-carousel owl-theme">
+          <div class="owl-slide d-flex align-items-center cover" style="background-image: url(/images/carrusel/reciclapak1.png) ">
+            <div class="container">
+              <div class="row justify-content-center justify-content-md-start">
+                <div class="col-10 col-md-6 static">
+                  <div class="owl-slide-text">
+                    <h1 class="owl-slide-animated owl-slide-title"><br>
+                    <br>
+                    <br> <br>
+                    <br>
+                    <br> <br>Cintas especializadas</h1>
+                    <div class="owl-slide-animated owl-slide-subtitle mb-3">
+                  <p><h2>Tus productos estaran seguros</h2></p>  
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
             </div>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </div><!--/owl-slide-->
+          </div><!--/owl-slide-->
 
-  <div class="owl-slide d-flex align-items-center cover" style="background-image: url(/images/carrusel/reciclapak1.png);">
-    <div class="container">
-      <div class="row justify-content-center justify-content-md-start">
-        <div class="col-10 col-md-6 static">
-          <div class="owl-slide-text">
-            <h1 class="owl-slide-animated owl-slide-title"> <br>
-            <br>
-            <br> <br>
-            <br>
-            <br> <br>Pelicula estirable</h1>
-            <div class="owl-slide-animated owl-slide-subtitle mb-3">
-                <p> <h2>Recubrimiento y proteccion de productos envasados, con la mejor calidad y precio</h2> </p>
+          <div class="owl-slide d-flex align-items-center cover" style="background-image: url(/images/carrusel/marca.jpg);">
+            <div class="container">
+              <div class="row justify-content-center justify-content-md-start">
+                <div class="col-10 col-md-6 static">
+                  <div class="owl-slide-text">
+                    <h1 class="owl-slide-animated owl-slide-title"> <br>
+                    <br>
+                    <br> <br>
+                    <br>
+                    <br> <br>Plastico de burbujas.</h1>
+                    <div class="owl-slide-animated owl-slide-subtitle mb-3">
+                  <p> <h2>Para embalaje, empaque y mudanzas</h2></p> 
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
             </div>
-           
-          </div>
+          </div><!--/owl-slide-->
+
+          <div class="owl-slide d-flex align-items-center cover" style="background-image: url(/images/carrusel/reciclapak1.png);">
+            <div class="container">
+              <div class="row justify-content-center justify-content-md-start">
+                <div class="col-10 col-md-6 static">
+                  <div class="owl-slide-text">
+                    <h1 class="owl-slide-animated owl-slide-title"> <br>
+                    <br>
+                    <br> <br>
+                    <br>
+                    <br> <br>Pelicula estirable</h1>
+                    <div class="owl-slide-animated owl-slide-subtitle mb-3">
+                        <p> <h2>Recubrimiento y proteccion de productos envasados, con la mejor calidad y precio</h2> </p>
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!--/owl-slide-->
         </div>
-      </div>
-    </div>
-  </div><!--/owl-slide-->
-</div>
-<br>
-<br>
-<div class="section" style="padding-top: 2em">
-<section class="showcase" >
-    <img src="/images/carrusel/marca.jpg" alt="Picture">
-    <div class="overlay">
-      <h2>Reciclapak</h2>
-      <p>
-      Reciclapak, fabricante de poliburbuja y distribuidor, con más de 15 años de experiencia en la industria del empaque.
-      </p>
-    </div>
-  </section>
+        <br>
+        <br>
+<!--         <div class="section" style="padding-top: 2em">
+        <section class="showcase" >
+            <img src="/images/carrusel/marca.jpg" alt="Picture">
+
+          </section> -->
   </div>
+
+
+<div class="parallax">
+    <div class="overlay">
+     
+    </div>
+</div>
+<div>
+<h1 style="display: inline-block; position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -700%); color:#ffffff">Reciclapak</h1>
+        <p style="display: inline-block; position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -300%); color:#ffffff; font-size: 24px ">Reciclapak, fabricante de poliburbuja y distribuidor, con más de 15 años de experiencia en la industria del empaque.</p>
+</div>
 
 
 
@@ -108,7 +118,7 @@
     <div class="container">
         <div class="row">
             <h2 class="home-titles">Catalogo de Productos</h2>
-             <!-- <?php foreach ($categorias as $cat): ?>
+            <!-- <?php foreach ($categorias as $cat): ?>
                 <div onclick="myFunction('<?= ucfirst(strtolower(htmlentities($cat['nombre']))) ?>')" class="col-md-4" >
                         <div class="panel panel-default producto ">
                             <div class="panel-heading" style="padding:0">
@@ -124,8 +134,8 @@
                         </div>
                 </div>
             <?php endforeach ?> -->
-            <?php foreach ($categorias as $cat): ?>
-                <div onclick="myFunction('<?= ucfirst(strtolower(htmlentities($cat['nombre']))) ?>')" >
+            <?php foreach ($productos as $cat): ?>
+                <div onclick="myFunction('Productos')" >
             <div class="col-xs-3 ">
             <div class="card">
                   <a class="img-card" href="<?= base_url() ?>/Productos">
