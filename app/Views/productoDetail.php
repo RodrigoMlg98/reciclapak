@@ -54,7 +54,7 @@
                         <h4>Aplicaciones</h4>
                         <p class="text-justify"><?= $producto['aplicaciones'] ?></p>
                     <?php endif ?>
-                    <a href="https://api.whatsapp.com/send?phone=52+5568758195&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20<?= $producto['nombre'] ?>." class="btn btn-primary cotizar">Cotizar</a>
+                    <a href="https://api.whatsapp.com/send?phone=52+5569325261&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20<?= $producto['nombre'] ?>." class="btn btn-primary cotizar">Cotizar</a>
                 </div>
             </div>
             <div class="row">
