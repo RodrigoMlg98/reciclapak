@@ -97,19 +97,14 @@
 
 
 <div class="parallax">
-    <div class="overlay">
+    
+    <h1 class="conthed">Reciclapak</h1>
+    <h3  class="conthed">Reciclapak, fabricante de poliburbuja y distribuidor, con más de 15 años de experiencia en la industria del empaque.</h3>
      
     </div>
-</div>
+
 <div>
-<h1 style="display: inline-block; position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -700%); color:#ffffff">Reciclapak</h1>
-        <p style="display: inline-block; position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -300%); color:#ffffff; font-size: 24px ">Reciclapak, fabricante de poliburbuja y distribuidor, con más de 15 años de experiencia en la industria del empaque.</p>
+
 </div>
 
 
@@ -146,7 +141,7 @@
                                 <?php endif ?>
                 </a>
                   <div class="card-content">
-                      <h4 class="card-title">
+                      <h4 class="card-title boxp">
                           <a href="<?= base_url() ?>/Productos"><?= ucfirst(strtolower(htmlentities($cat['nombre']))) ?>
                         </a>
                       </h4>

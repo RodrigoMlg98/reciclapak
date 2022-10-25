@@ -5050,8 +5050,7 @@ section {
     background-image: url("/images/carrusel/marca.jpg");
 
     
-    filter: grayscale(100%)
-    blur(8px);
+    filter: grayscale(100%);
 
     /* Set a specific height */
     min-height: 500px;
@@ -5062,3 +5061,22 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.conthed{
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 2.5em;
+}
+
+.boxp {
+    
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    
+   
+}
+
+
