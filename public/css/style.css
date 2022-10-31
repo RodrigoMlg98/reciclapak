@@ -5047,7 +5047,7 @@ section {
 
 .parallax {
     /* The image used */
-    background-image: url("/images/carrusel/marca.jpg");
+    background-image: url("/images/carrusel/marca1.jpg");
 
     
     filter: grayscale(100%);
@@ -5062,10 +5062,11 @@ section {
     background-size: cover;
 }
 
-.conthed{
+.conthom{
     text-align: center;
     color: #FFFFFF;
     padding-top: 2.5em;
+    font-size: 40px;
 }
 
 .boxp {
@@ -5077,6 +5078,30 @@ section {
     text-align: center;
     
    
+}
+
+.sectiomnenu{
+    background-image: url("/images/carrusel/reciclapak.png");
+
+    
+    filter: grayscale(100%);
+
+    /* Set a specific height */
+    min-height: 250px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.contapa{
+    text-align: right;
+    color: #FFFFFF;
+    padding-top: 2.5em;
+    padding-right: 2.5em;
 }
 
 

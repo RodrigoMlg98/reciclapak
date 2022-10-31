@@ -1,15 +1,8 @@
 <?= $this->extend('template/plantilla') ?>
 <?= $this->section('content') ?>
     <div class="section section-header" style="min-height: 120px;"></div>
-<div class="section"> 
-
-    <img src="/images/carrusel/reciclapak1.png" alt="" style=" filter: blur(2px) grayscale(100%); width: 100%;
-    height: 250px; "> 
-    <h1 style="display: inline-block; position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(300%, -50%); color:#ffffff"> Nosotros</h1>
-    
+<div class="sectiomnenu">
+<h1 class="contapa">Nosotros</h1>
 </div>
 
     <div class="section">

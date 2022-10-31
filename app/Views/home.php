@@ -96,16 +96,7 @@
   </div>
 
 
-<div class="parallax">
-    
-    <h1 class="conthed">Reciclapak</h1>
-    <h3  class="conthed">Reciclapak, fabricante de poliburbuja y distribuidor, con más de 15 años de experiencia en la industria del empaque.</h3>
-     
-    </div>
 
-<div>
-
-</div>
 
 
 
@@ -157,7 +148,16 @@
 </div>
                                 </div>
                   </div>
+                  <div class="parallax">
+    
+    <h1 class="conthom">  Reciclapak</h1>
+    <h3  class="conthom">Reciclapak, fabricante de poliburbuja y distribuidor, con más de 15 años de experiencia en la industria del empaque.</h3>
+     
+    </div>
 
+<div>
+
+</div>
 <div class="section">
     <div class="container">
         <div class="row">
