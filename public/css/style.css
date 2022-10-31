@@ -2021,7 +2021,7 @@ fieldset[disabled] .form-control {
 }
 
 .label-danger {
-    background-color: #148ecf;
+    background-color: #cf1414;
 }
 
 .btn-social {
@@ -3529,7 +3529,7 @@ footer .row .info {
 
     footer .row div:first-child .title {
         margin-top: 0;
-        color: #23a3dd;
+        color: #000000;
     }
 
     .navbar-transparent .navbar-brand {
@@ -4147,7 +4147,7 @@ body {
 @media (max-width: 767px) {
     .navbar-transparent {
         padding-top: 0;
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgba(0, 0, 0, 0.158);
     }
 
     #bodyClick {
@@ -4163,7 +4163,7 @@ body {
         right: 0;
         z-index: 1032;
         visibility: visible;
-        background-color: rgba(0, 0, 0, 0.45);
+        background-color: rgba(255, 254, 254, 0.45);
         overflow-y: visible;
         border-top: none;
         text-align: left;
