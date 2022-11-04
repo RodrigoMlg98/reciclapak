@@ -1,6 +1,9 @@
 <?= $this->extend('template/plantilla') ?>
 <?= $this->section('content') ?>
     <div class="section section-header" style="min-height: 120px;"></div>
+    <div class="sectiomnenu">
+<h1 class="contapa">Productos</h1>
+</div>
     <div class="section">
         <div class="container">
             <div class="row">

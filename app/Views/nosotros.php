@@ -10,18 +10,27 @@
             <div class="row" style="text-align:center">
                 <h2 class="pb-3" style="color:#444444;font-size:35px">Quiénes somos</h2>
                 <div class="col-sm-6 col-md-6">
-                    <img width="85%" src="/images/productos/no_photo.png" alt="">
+                    <img width="85%" src="/images/OriginalesP/BUTBUJA2908.png" alt="">
                 </div>
                 <div class="col-sm-6 col-md-6 pb-4">
                     <p class="quienes">
-                    Reciclapak, fabricante de poliburbuja y distribuidor, con más de 15 años de experiencia en la industria del empaque. 
+                    RECICLAPAK, es una empresa
+enfocada en dar lo mejor de si para
+sus clientes, siempre brindar precios
+competitivos, Servicio y Calidad en
+sus Productos. Nuestra principal
+actividad es la FABRICACION DE
+POLIBURBUJA NATURAL Y
+ANTIESTATICA 
                     </p>
                    
                 </div>
                 <div class="col-sm-6 col-md-6 vision">
                     <h2 style="color:#444444;font-size:35px">MISIÓN</h2>
                     <p class="quienes mision pb-4">
-                    Ser la solución de nuestros clientes brindar atención, servicio y calidad en nuestros productos.
+                    Nuestra misión es ser la solución que cubra sus
+necesidades pero sobre todo dar la atención que
+hoy en día busca y requiere el cliente.
                     </p>
                     <h2 style="color:#444444;font-size:35px;">VISIÓN</h2>
                     <p class="quienes pb-4">
@@ -29,7 +38,7 @@
                     </p>
                 </div>
                 <div class="col-sm-6 col-md-6 pb-4">
-                    <img width="80%" src="/images/productos/no_photo.png" alt="">
+                    <img width="80%" src="/images/OriginalesP/POLIFOAM47.png" alt="">
                 </div>
                 <div class="col-sm-12 col-md-12 vision">
                     <h2 style="color:#444444;font-size:35px">Nosotros</h2>

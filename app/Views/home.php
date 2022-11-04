@@ -26,18 +26,18 @@
         </div>
         </difv> -->
         <div class="owl-carousel owl-theme">
-          <div class="owl-slide d-flex align-items-center cover" style="background-image: url(/images/carrusel/reciclapak1.png) ">
+          <div class="owl-slide d-flex align-items-center cover" style="background-image: url(/images/OriginalesP/BUTBUJA2908.png) ">
             <div class="container">
               <div class="row justify-content-center justify-content-md-start">
                 <div class="col-10 col-md-6 static">
                   <div class="owl-slide-text">
-                    <h1 class="owl-slide-animated owl-slide-title"><br>
+                    <h1 class="owl-slide-animated owl-slide-title" style="color: #FFFFFF"><br>
                     <br>
                     <br> <br>
                     <br>
                     <br> <br>Cintas especializadas</h1>
                     <div class="owl-slide-animated owl-slide-subtitle mb-3">
-                  <p><h2>Tus productos estaran seguros</h2></p>  
+                  <p><h2 style="color: #FFFFFF">Tus productos estaran seguros</h2></p>  
                     </div>
                   
                   </div>
@@ -51,13 +51,13 @@
               <div class="row justify-content-center justify-content-md-start">
                 <div class="col-10 col-md-6 static">
                   <div class="owl-slide-text">
-                    <h1 class="owl-slide-animated owl-slide-title"> <br>
+                    <h1 class="owl-slide-animated owl-slide-title" style="color: #FFFFFF"> <br>
                     <br>
                     <br> <br>
                     <br>
                     <br> <br>Plastico de burbujas.</h1>
                     <div class="owl-slide-animated owl-slide-subtitle mb-3">
-                  <p> <h2>Para embalaje, empaque y mudanzas</h2></p> 
+                  <p> <h2 style="color: #FFFFFF">Para embalaje, empaque y mudanzas</h2></p> 
                     </div>
                     
                   </div>
@@ -66,18 +66,18 @@
             </div>
           </div><!--/owl-slide-->
 
-          <div class="owl-slide d-flex align-items-center cover" style="background-image: url(/images/carrusel/reciclapak1.png);">
+          <div class="owl-slide d-flex align-items-center cover" style="background-image: url(/images/OriginalesP/POLIFOAM47.png);">
             <div class="container">
               <div class="row justify-content-center justify-content-md-start">
                 <div class="col-10 col-md-6 static">
                   <div class="owl-slide-text">
-                    <h1 class="owl-slide-animated owl-slide-title"> <br>
-                    <br>
+                    <h1 class="owl-slide-animated owl-slide-title" style="color: #FFFFFF"> <br>
+                    
                     <br> <br>
                     <br>
                     <br> <br>Pelicula estirable</h1>
                     <div class="owl-slide-animated owl-slide-subtitle mb-3">
-                        <p> <h2>Recubrimiento y proteccion de productos envasados, con la mejor calidad y precio</h2> </p>
+                        <p> <h2 style="color: #FFFFFF">Recubrimiento y proteccion de productos envasados, con la mejor calidad y precio</h2> </p>
                     </div>
                   
                   </div>
@@ -100,54 +100,78 @@
 
 
 
-<div class="section " >
-    <div class="container">
-        <div class="row">
-            <h2 class="home-titles">Catalogo de Productos</h2>
-            <!-- <?php foreach ($categorias as $cat): ?>
-                <div onclick="myFunction('<?= ucfirst(strtolower(htmlentities($cat['nombre']))) ?>')" class="col-md-4" >
-                        <div class="panel panel-default producto ">
-                            <div class="panel-heading" style="padding:0">
-                                <?php if ($cat['img']==null): ?>
-                                    <img class="img-thumbnail producto_imagen" src="<?= base_url() ?>/images/productos/no_photo.png" alt="" srcset="">
-                                <?php else: ?>
-                                    <img class="img-thumbnail producto_imagen" src="<?= base_url() ?>/images/productos/<?= $cat['img'] ?>" alt="Reciclapak - <?= ucfirst(strtolower(htmlentities($cat['nombre']))) ?>" srcset="">
-                                <?php endif ?>
-                            </div>
-                            <div class="panel-body">
-                                <h3><?= ucfirst(strtolower(htmlentities($cat['nombre']))) ?></h3>
-                            </div>
-                        </div>
-                </div>
-            <?php endforeach ?> -->
-            <?php foreach ($productos as $cat): ?>
-                <div onclick="myFunction('Productos')" >
-            <div class="col-xs-3 ">
-            <div class="card">
-                  <a class="img-card" href="<?= base_url() ?>/Productos">
-                  <?php if ($cat['img']==null): ?>
-                  <img class="img-thumbnail producto_imagen" src="<?= base_url() ?>/images/productos/no_photo.png" alt="" srcset="" />
-                  <?php else: ?>
-                    <img class="img-thumbnail producto_imagen" src="<?= base_url() ?>/images/productos/<?= $cat['img'] ?>" alt="Reciclapak - <?= ucfirst(strtolower(htmlentities($cat['nombre']))) ?>" srcset="">
-                                <?php endif ?>
-                </a>
-                  <div class="card-content">
-                      <h4 class="card-title boxp">
-                          <a href="<?= base_url() ?>/Productos"><?= ucfirst(strtolower(htmlentities($cat['nombre']))) ?>
-                        </a>
-                      </h4>
-                     
-                      <div class="clearfix"></div>
-                  </div>
-                 
-              </div>
 
-        </div>
-    </div>
-    <?php endforeach ?>
-</div>
-                                </div>
+<div class="container">
+  <h2 class="home-titles">Catalogo de Productos</h2>
+</div>                  
+
+<div class="section">
+  <div class="container">
+    <div class="row">
+        <?php foreach ($productos as $cat): ?>
+          <div class="col-md-4 mb-5">
+            <div onclick="myFunction('Productos')" >
+              <div class="carde">
+                  <div class="imgBox">
+                    <!--  <img src="public/images/productos/Rollo_reciclapak.JPG" alt="" class="mouse"> -->
+                    <?php if ($cat['img']==null): ?>
+                      <img class=" producto_imagen mouse" src="<?= base_url() ?>/images/productos/no_photo.png" alt="" srcset="" />
+                    <?php else: ?>
+                      <img class=" producto_imagen mouse" src="<?= base_url() ?>/images/productos/<?= $cat['img'] ?>" alt="Reciclapak - <?= ucfirst(strtolower(htmlentities($cat['nombre']))) ?>" srcset="">
+                    <?php endif ?>
                   </div>
+                  <div class="contentBox">
+                    <h3 href="<?= base_url() ?>/Productos"><?= ucfirst(strtolower(htmlentities($cat['nombre']))) ?> </h3>
+                    <a href="<?= base_url() ?>/Productos" class="buy">Ver mas...</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        <?php endforeach ?>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                   <div class="parallax">
     
     <h1 class="conthom">  Reciclapak</h1>

@@ -4,7 +4,7 @@ use App\Models\ProductosModel;
 class Home extends BaseController{
 	public function index(){
 		$productoModel=new ProductosModel;
-		$producto=$productoModel->findAll(4);
+		$producto=$productoModel->findAll(3);
         $data = [
 			'categorias'=>$this->categorias(),
 			'productos'=>$producto,
