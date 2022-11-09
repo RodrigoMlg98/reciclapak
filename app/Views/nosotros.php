@@ -10,18 +10,11 @@
             <div class="row" style="text-align:center">
                 <h2 class="pb-3" style="color:#444444;font-size:35px">Quiénes somos</h2>
                 <div class="col-sm-6 col-md-6">
-                    <img width="85%" src="/images/OriginalesP/BUTBUJA2908.png" alt="">
+                    <img width="85%" src="/images/carrusel/reciclapak2.jpg" alt="">
                 </div>
                 <div class="col-sm-6 col-md-6 pb-4">
                     <p class="quienes">
-                    RECICLAPAK, es una empresa
-enfocada en dar lo mejor de si para
-sus clientes, siempre brindar precios
-competitivos, Servicio y Calidad en
-sus Productos. Nuestra principal
-actividad es la FABRICACION DE
-POLIBURBUJA NATURAL Y
-ANTIESTATICA 
+                    Reciclapak, fabricante de poliburbuja y distribuidor, con más de 15 años de experiencia en la industria del empaque. 
                     </p>
                    
                 </div>

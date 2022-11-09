@@ -46,18 +46,18 @@
             </div>
           </div><!--/owl-slide-->
 
-          <div class="owl-slide d-flex align-items-center cover" style="background-image: url(/images/carrusel/marca.jpg);">
+          <div class="owl-slide d-flex align-items-center cover" style="background-image: url(/images/carrusel/reciclapak2.jpg);">
             <div class="container">
               <div class="row justify-content-center justify-content-md-start">
                 <div class="col-10 col-md-6 static">
                   <div class="owl-slide-text">
-                    <h1 class="owl-slide-animated owl-slide-title" style="color: #FFFFFF"> <br>
+                    <h1 class="owl-slide-animated owl-slide-title" > <br>
                     <br>
                     <br> <br>
                     <br>
-                    <br> <br>Plastico de burbujas.</h1>
+                    <br> <br>ROLLOS DE POLIBURBUJA</h1>
                     <div class="owl-slide-animated owl-slide-subtitle mb-3">
-                  <p> <h2 style="color: #FFFFFF">Para embalaje, empaque y mudanzas</h2></p> 
+                  <p> <h2 >Para embalaje, empaque y mudanzas</h2></p> 
                     </div>
                     
                   </div>
@@ -66,7 +66,7 @@
             </div>
           </div><!--/owl-slide-->
 
-          <div class="owl-slide d-flex align-items-center cover" style="background-image: url(/images/OriginalesP/POLIFOAM47.png);">
+          <div class="owl-slide d-flex align-items-center cover" style="background-image: url(/images/carrusel/pelicula_reciclapak.jpg);">
             <div class="container">
               <div class="row justify-content-center justify-content-md-start">
                 <div class="col-10 col-md-6 static">
