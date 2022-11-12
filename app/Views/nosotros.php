@@ -30,10 +30,7 @@ hoy en día busca y requiere el cliente.
                     Ser un fabricante competitivo que este a la altura de la calidad que los clientes requieren, así como la demanda del mercado.
                     </p>
                 </div>
-                <div class="col-sm-6 col-md-6 pb-4">
-                    <img width="80%" src="/images/OriginalesP/POLIFOAM47.png" alt="">
-                </div>
-                <div class="col-sm-12 col-md-12 vision">
+                <diav class="col-sm-6 col-md-6 vision">
                     <h2 style="color:#444444;font-size:35px">Nosotros</h2>
                     <p class="quienes">
                     Empresa creada con la finalidad de suministrar 
@@ -42,11 +39,21 @@ hoy en día busca y requiere el cliente.
                      indiscutible, nos respalda la experiencia y el servicio 
                      que hasta hoy hemos brindado.
                     </p>
+                </diav>
+                <div class="col-sm-6 col-md-6 pb-4">
+                    <img width="90%" src="/images/OriginalesP/POLIFOAM47.png" alt="">
                 </div>
-         
+                <div class="col-sm-6 col-md-6 pb-4">
+                    <img width="90%" src="/images/OriginalesP/maquina strech 2.png" alt="">
+                </div>
+                <div class="col-sm-6 col-md-6 pb-4">
+                    <img width="90%" src="/images/OriginalesP/maquina strech.png" alt="">
+                </div>
+                
             </div>
         </div>
     </div>
+   
     <div class="section">
     <div class="container">
         <div class="row">
@@ -61,7 +68,7 @@ hoy en día busca y requiere el cliente.
                     <div class="icon text-danger">
                         <i class="fa fa-money" style="color: #cc1000;"></i>
                     </div>
-                    <h3 style="color: #333333;"><b>Pecios competitivos </b></h3>
+                    <h3 style="color: #333333;"><b>Precios competitivos </b></h3>
                     <ul class="description" style="list-style:none;padding-left: 0px;">
                         <li>Nuestros precios se ajustan a tu presupuesto</li>
                                 </ul>

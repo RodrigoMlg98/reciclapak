@@ -132,46 +132,6 @@
   </div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                   <div class="parallax">
     
     <h1 class="conthom">  Reciclapak</h1>
@@ -196,7 +156,7 @@
                     <div class="icon text-danger">
                         <i class="fa fa-money" style="color: #cc1000;"></i>
                     </div>
-                    <h3 style="color: #333333;"><b>Pecios competitivos </b></h3>
+                    <h3 style="color: #333333;"><b>Precios competitivos </b></h3>
                     <ul class="description" style="list-style:none;padding-left: 0px;">
                         <li>Nuestros precios se ajustan a tu presupuesto</li>
                                 </ul>
