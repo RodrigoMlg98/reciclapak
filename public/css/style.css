@@ -5118,7 +5118,7 @@ section {
     position: relative;
     width: 320px;
     height: 480px;
-    background: #757373;
+    background: #7573735b;
     border-radius: 20px;
     overflow: hidden;
 }
@@ -5129,7 +5129,7 @@ section {
     top: -50%;
     width: 100%;
     height: 100%;
-    background: #ff0000;
+    background: #ff00008f;
     transform: skewY(345deg);
     transition: 0.5s;
 }
@@ -5219,4 +5219,9 @@ section {
 .mouse {
     height: 300px;
     width: auto;
+}
+
+.contactspa
+{
+    padding-top: 3.5em;
 }

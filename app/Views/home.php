@@ -35,9 +35,9 @@
                     <br>
                     <br> <br>
                     <br>
-                    <br> <br>Cintas especializadas</h1>
+                    <br> <br>BIENVENIDOS A RECICLAPAK</h1>
                     <div class="owl-slide-animated owl-slide-subtitle mb-3">
-                  <p><h2 style="color: #FFFFFF">Tus productos estaran seguros</h2></p>  
+                  
                     </div>
                   
                   </div>
@@ -55,7 +55,7 @@
                     <br>
                     <br> <br>
                     <br>
-                    <br> <br>ROLLOS DE POLIBURBUJA</h1>
+                    <br> <br>SOMOS FABRICANTES DE POLIBURBUJA</h1>
                     <div class="owl-slide-animated owl-slide-subtitle mb-3">
                   <p> <h2 >Para embalaje, empaque y mudanzas</h2></p> 
                     </div>
@@ -75,7 +75,7 @@
                     
                     <br> <br>
                     <br>
-                    <br> <br>Pelicula estirable</h1>
+                    <br> <br>SOMOS FABRICANTES DE PELICULA STRECH</h1>
                     <div class="owl-slide-animated owl-slide-subtitle mb-3">
                         <p> <h2 style="color: #FFFFFF">Recubrimiento y proteccion de productos envasados, con la mejor calidad y precio</h2> </p>
                     </div>

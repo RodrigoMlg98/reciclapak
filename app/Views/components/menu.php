@@ -23,7 +23,7 @@
                         <style>
                             ul.dropdown-menu::before { content: '\A'; white-space: pre;}
                         </style>
-                        <li><a href="<?= base_url() ?>/contacto">Contactanos</a></li>
+                        <li><a href="<?= base_url() ?>/contacto">Contacto</a></li>
                     </ul>
                 </div>
             </div>
