@@ -8,49 +8,53 @@
     <div class="section">
         <div class="container">
             <div class="row" style="text-align:center">
-                <h2 class="pb-3" style="color:#444444;font-size:35px">Quiénes somos</h2>
-                <div class="col-sm-6 col-md-6">
-                    <img width="85%" src="/images/carrusel/reciclapak2.jpg" alt="">
-                </div>
-                <div class="col-sm-6 col-md-6 pb-4">
-                    <p class="quienes">
+              
+                <div class="col-sm-6 col-md-6" >
+                    <h2 style="color:#444444;font-size:35px" data-aos="fade-down-left">Quiénes somos</h2>
+                    <p class="quienes" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                     Reciclapak, fabricante de poliburbuja y distribuidor, con más de 15 años de experiencia en la industria del empaque. 
                     </p>
-                   
                 </div>
-                <div class="col-sm-6 col-md-6 vision">
-                    <h2 style="color:#444444;font-size:35px">MISIÓN</h2>
-                    <p class="quienes mision pb-4">
+                <div class="col-sm-6 col-md-6 pb-4" >
+                <h2 style="color:#444444;font-size:35px" data-aos="fade-down-right">MISIÓN</h2>
+                <p class="quienes mision pb-4" data-aos="flip-right"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                     Nuestra misión es ser la solución que cubra sus
 necesidades pero sobre todo dar la atención que
 hoy en día busca y requiere el cliente.
                     </p>
-                    <h2 style="color:#444444;font-size:35px;">VISIÓN</h2>
-                    <p class="quienes pb-4">
+
+                    
+                   
+                </div>
+                <div class="col-sm-6 col-md-6 vision" >
+                    <h2 style="color:#444444;font-size:35px" data-aos="fade-down-left">VISIÓN</h2>
+                    <p class="quienes mision pb-4" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                     Ser un fabricante competitivo que este a la altura de la calidad que los clientes requieren, así como la demanda del mercado.
                     </p>
-                </div>
-                <diav class="col-sm-6 col-md-6 vision">
-                    <h2 style="color:#444444;font-size:35px">Nosotros</h2>
-                    <p class="quienes">
+</div>
+
+                    <div class="col-sm-6 col-md-6 vision" >
+                    <h2 style="color:#444444;font-size:35px;" data-aos="fade-down-right">Nosotros</h2>
+                    <p class="quienes pb-4" data-aos="flip-right"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                     Empresa creada con la finalidad de suministrar 
                     material de empaque y embalaje, que cuenta con un equipo especializado
                      en cumplir nuestro propósito en ser su proveedor 
                      indiscutible, nos respalda la experiencia y el servicio 
                      que hasta hoy hemos brindado.
                     </p>
-                </diav>
-                <div class="col-sm-6 col-md-6 pb-4">
-                    <img width="90%" src="/images/OriginalesP/POLIFOAM47.png" alt="">
                 </div>
-                <div class="col-sm-6 col-md-6 pb-4">
-                    <img width="90%" src="/images/OriginalesP/maquina strech 2.png" alt="">
-                </div>
-                <div class="col-sm-6 col-md-6 pb-4">
-                    <img width="90%" src="/images/OriginalesP/maquina strech.png" alt="">
-                </div>
+               
+              
                 
-            </div>
+           
         </div>
     </div>
    

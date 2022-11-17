@@ -62,16 +62,23 @@ Entre Av. Javier Rojo Gómez y 26 de Enero 1857</b></p>
         <script src="<?= base_url() ?>/js/bootstrap.js" type="text/javascript"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
         
 <script src="<?= base_url() ?>/js/owl.carrusel/carrusel-home.js"></script>
+
         
 
         
         <script type="text/javascript" src="<?= base_url() ?>/js/modernizr.js"></script>
         <?= $this->renderSection('footer') ?>
         <script type="text/javascript" src="<?= base_url() ?>/js/gaia.js"></script>
-        
         <script>
+  AOS.init();
+</script>
+        <script>
+           /*  AOS.init(); */
             function myFunction(link) {
                 location.href = "<?= base_url() ?>/"+link;
             } 
