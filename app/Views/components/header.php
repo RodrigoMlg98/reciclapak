@@ -19,6 +19,9 @@
     <link href="<?= base_url() ?>/css/bootstrap.css" rel="stylesheet" />
     <link href="<?= base_url() ?>/css/style.css" rel="stylesheet" />
     <link href='https://fonts.googleapis.com/css?family=Cambo|Poppins:400,600' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="<?= base_url() ?>/css/fontawesome/all.min.css">
