@@ -5221,7 +5221,34 @@ section {
     width: auto;
 }
 
+.sectnos{
+background-color: grey;
+}
+
 .contactspa
 {
     padding-top: 3.5em;
 }
+
+.contactspano
+{
+    color: white;
+    text-align: center;
+    border-color: white;
+}
+
+.nosotrosbt {
+    
+    color: black;
+    font-size: 2em;
+    
+}
+
+.nosotrosbt:hover {
+    color: white;
+    text-align: center;
+    
+}
+
+
+

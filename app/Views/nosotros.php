@@ -1,10 +1,11 @@
 <?= $this->extend('template/plantilla') ?>
 <?= $this->section('content') ?>
     <div class="section section-header" style="min-height: 120px;"></div>
-<div class="sectiomnenu">
+<div class="section">
+    <div class="sectiomnenu">
 <h1 class="contapa">Nosotros</h1>
 </div>
-
+</div>
     <div class="section">
         <div class="container">
             <div class="row" style="text-align:center">
@@ -57,8 +58,18 @@ hoy en día busca y requiere el cliente.
            
         </div>
     </div>
+    <div class="sectnos ">
+<h2 class="contactspano" style="padding-top: 2em; padding-bottom: 1em;">¿Tines alguna duda sobre nuestros productos?</h2>
+
+ <p style="text-align: center; padding-bottom: 2em; "><a href="<?= base_url() ?>/contacto" class="btn btn-primary nosotrosbt" >contactanos</a></p>
+
+
+
+
+
+</div>
    
-    <div class="section">
+ <!--    <divwwww class="section">
     <div class="container">
         <div class="row">
             <h2 class="recicla">POR QUÉ ELEGIRNOS</h2>
@@ -120,6 +131,8 @@ hoy en día busca y requiere el cliente.
         </div>
     </div>
 </div>
-</div>
+</divwwww> -->
+
+
 </div>
 <?= $this->endSection() ?>
