@@ -102,7 +102,7 @@
 
 
 <div class="container">
-  <h2 class="home-titles">Catalogo de Productos</h2>
+  <h2 class="home-titles">Catálogo de Productos</h2>
 </div>                  
 
 <div class="section">
