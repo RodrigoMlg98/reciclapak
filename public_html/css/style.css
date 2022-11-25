@@ -64,7 +64,7 @@ h6,
 .content-blog p {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: 'Mitr', sans-serif;
+    font-family: Verdana;
 }
 
 h1 a,
