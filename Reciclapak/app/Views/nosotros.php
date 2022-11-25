@@ -59,7 +59,7 @@ hoy en día busca y requiere el cliente.
         </div>
     </div>
     <div class="sectnos ">
-<h2 class="contactspano" style="padding-top: 2em; padding-bottom: 1em;">¿Tines alguna duda sobre nuestros productos?</h2>
+<h2 class="contactspano" style="padding-top: 2em; padding-bottom: 1em;">¿Tienes alguna duda sobre nuestros productos?</h2>
 
  <p style="text-align: center; padding-bottom: 2em; "><a href="<?= base_url() ?>/contacto" class="btn btn-primary nosotrosbt" >contactanos</a></p>
 
