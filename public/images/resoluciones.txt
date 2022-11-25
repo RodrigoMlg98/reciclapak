@@ -1,2 +1,0 @@
-carrusel: 1280x473pp
-productos: bajar peso de imagenes.
