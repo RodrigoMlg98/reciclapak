@@ -26,7 +26,7 @@
         </div>
         </difv> -->
         <div class="owl-carousel owl-theme">
-          <div class="owl-slide d-flex align-items-center cover" style="background-image: url(/images/OriginalesP/BUTBUJA2908.png) ">
+          <div class="owl-slide d-flex align-items-center cover" style="background-image: url(/images/carrusel/carrusel_reciclapak.jpg) ">
             <div class="container">
               <div class="row justify-content-center justify-content-md-start">
                 <div class="col-10 col-md-6 static">
@@ -135,7 +135,7 @@
                   <div class="parallax">
     
     <h1 class="conthom">  Reciclapak</h1>
-    <h3  class="conthom">Reciclapak, fabricante de poliburbuja y distribuidor, con más de 15 años de experiencia en la industria del empaque.</h3>
+    <h3  class="conthom">Reciclapak, fabricante de poliburbuja, película strech y  distribuidor, con más de 15 años de experiencia en la industria del empaque.</h3>
      
     </div>
 

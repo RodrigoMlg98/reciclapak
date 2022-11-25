@@ -15,7 +15,7 @@
                     <p class="quienes" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
-                    Reciclapak, fabricante de poliburbuja y distribuidor, con más de 15 años de experiencia en la industria del empaque. 
+     Reciclapak, fabricante de poliburbuja, película strech y  distribuidor, con más de 15 años de experiencia en la industria del empaque.
                     </p>
                 </div>
                 <div class="col-sm-6 col-md-6 pb-4" >
